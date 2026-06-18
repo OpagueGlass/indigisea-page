@@ -1,0 +1,1138 @@
+{
+  "en": {
+    "nav": {
+      "brand": "IndigiSEA",
+      "items": [
+        {
+          "key": "home",
+          "label": "Home"
+        },
+        {
+          "key": "about",
+          "label": "About"
+        },
+        {
+          "key": "research",
+          "label": "Research"
+        },
+        {
+          "key": "resources",
+          "label": "Resources"
+        },
+        {
+          "key": "people",
+          "label": "People"
+        },
+        {
+          "key": "blogs",
+          "label": "Blogs"
+        },
+        {
+          "key": "contact",
+          "label": "Contact"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Bridging the Digital Divide for Southeast Asian Indigenous Languages through ethical research, community partnerships, and accessible technology.",
+      "projectTitle": "Project",
+      "connectTitle": "Connect",
+      "rights": "All rights reserved."
+    },
+    "home": {
+      "heroTitle": "Bridging the Digital Divide for Southeast Asian Indigenous Languages",
+      "heroSubtitle": "With over 800 languages in Malaysia and Indonesia, most critically endangered, IndigiSEA will establish the people, processes, and partnerships essential for long-term linguistic sustainability. The project will develop ethical frameworks, participatory research models, and digital platforms that foster access, innovation, and community leadership to advance ethical digital futures for Indigenous languages.",
+      "heroPrimaryCta": "Learn More About Our Work",
+      "heroSecondaryCta": "View Our Resources",
+      "missionQuote": "Empowering communities by bringing their voices into the digital age through ethical research and inclusive technology.",
+      "approachTitle": "Our Approach",
+      "approachSubtitle": "Building sustainable solutions for indigenous language preservation",
+      "highlights": [
+        {
+          "title": "Community First",
+          "description": "Working directly with indigenous speakers and communities to ensure authentic representation and ownership of their linguistic heritage."
+        },
+        {
+          "title": "Language Documentation",
+          "description": "Building comprehensive digital corpora through careful documentation of vocabulary, sentences, and audio recordings."
+        },
+        {
+          "title": "Accessible Technology",
+          "description": "Creating tools like digital dictionaries, language models, and offline recording apps that empower communities."
+        }
+      ],
+      "ctaTitle": "Explore Our Work",
+      "ctaSubtitle": "Discover our research outputs, digital resources, and the communities we partner with.",
+      "ctaPrimary": "View Our Dictionaries",
+      "ctaSecondary": "Explore Research",
+      "communitiesTitle": "The Communities We Serve",
+      "communitiesSubtitle": "Working with indigenous communities across Southeast Asia",
+      "communityLabel": "Indigenous Community",
+      "communities": [
+        "Che Wong",
+        "Temuan",
+        "Iban",
+        "Bukar Sadong"
+      ]
+    },
+    "about": {
+      "headerTitle": "About the Project",
+      "headerSubtitle": "Understanding the challenges and our approach to preserving Southeast Asian indigenous languages",
+      "problemTitle": "The Problem",
+      "problemParagraphs": [
+        "Southeast Asia is home to an extraordinary linguistic diversity, with over 800 languages spoken across Malaysia and Indonesia alone. However, this rich heritage faces an unprecedented threat.",
+        "Most of these languages are critically endangered, with dwindling numbers of speakers and limited documentation. As older generations pass, invaluable linguistic knowledge, cultural traditions, and unique worldviews risk being lost forever.",
+        "The digital divide further exacerbates this crisis. While technology has advanced rapidly, indigenous languages remain largely absent from digital spaces, creating barriers to education, communication, and cultural preservation for their communities."
+      ],
+      "statBigNumber": "800+",
+      "statBigLabel": "Languages",
+      "statBigSub": "In Malaysia and Indonesia",
+      "statSmallNumber": "Most",
+      "statSmallLabel": "Critically Endangered",
+      "statSmallSub": "At risk of disappearing",
+      "approachTitle": "Our Approach",
+      "approachSubtitle": "A holistic methodology combining research, technology, and community engagement",
+      "approachItems": [
+        {
+          "title": "Ethical Frameworks",
+          "description": "Developing guidelines that respect indigenous data sovereignty and ensure community ownership of their linguistic data."
+        },
+        {
+          "title": "Participatory Research",
+          "description": "Engaging community members as active participants and co-researchers, not just subjects of study."
+        },
+        {
+          "title": "Digital Platforms",
+          "description": "Building accessible tools and platforms that communities can use to document, learn, and preserve their languages."
+        },
+        {
+          "title": "Capacity Building",
+          "description": "Training community members in language documentation techniques and digital tool usage."
+        },
+        {
+          "title": "Long-term Partnerships",
+          "description": "Establishing sustainable relationships with communities, institutions, and governments for ongoing support."
+        },
+        {
+          "title": "Open Innovation",
+          "description": "Sharing methodologies and tools openly to benefit language preservation efforts worldwide."
+        }
+      ],
+      "communitiesTitle": "The Communities",
+      "communitiesSubtitle": "Partner communities at the heart of our work",
+      "communities": [
+        {
+          "name": "Che Wong",
+          "subtitle": "Orang Asli Community, Malaysia",
+          "description": "The Che Wong are an indigenous group residing in the rainforests of Pahang, Malaysia. Their language carries unique knowledge about forest ecosystems and traditional practices passed down through generations."
+        },
+        {
+          "name": "Temuan",
+          "subtitle": "Orang Asli Community, Malaysia",
+          "description": "The Temuan people are one of the largest Orang Asli subgroups in Peninsular Malaysia. Their language and oral traditions contain rich cultural heritage and traditional ecological knowledge."
+        },
+        {
+          "name": "Iban",
+          "subtitle": "Indigenous Community, Sarawak",
+          "description": "The Iban are the largest indigenous group in Sarawak, Malaysian Borneo. While their language has more speakers than some other indigenous languages, documenting dialectal variations and traditional vocabulary remains crucial."
+        },
+        {
+          "name": "Bukar Sadong",
+          "subtitle": "Bidayuh Subgroup, Sarawak",
+          "description": "The Bukar Sadong are a subgroup of the Bidayuh people in Sarawak. Their distinct language and cultural practices represent an important part of Borneo's indigenous heritage."
+        }
+      ]
+    },
+    "research": {
+      "headerTitle": "Our Research",
+      "headerSubtitle": "Cutting-edge work across linguistics, technology, and ethics to preserve indigenous languages",
+      "area1Badge": "Area 1",
+      "area1Title": "Linguistic Documentation",
+      "area1Intro": "Building comprehensive records of indigenous languages through systematic data collection and community collaboration.",
+      "area1Cards": [
+        {
+          "title": "Audio Recordings",
+          "description": "High-quality audio recordings capture pronunciation, intonation, and natural speech patterns. These recordings build a foundational understanding of each language's phonology and prosody."
+        },
+        {
+          "title": "IndigiSEA Recorder App",
+          "description": "Our custom-built mobile application enables offline recording in remote areas without internet connectivity, allowing community members to contribute recordings from anywhere."
+        },
+        {
+          "title": "Vocabulary & Sentences",
+          "description": "Systematic collection of day-to-day vocabulary, thematic sentences, and natural conversations. Words and sentences are generated through structured elicitation sessions with native speakers."
+        }
+      ],
+      "area2Badge": "Area 2",
+      "area2Title": "Digital Infrastructure & AI",
+      "area2Intro": "Building the technological foundation to support indigenous languages in the digital age, from data collection tools to language models.",
+      "area2Body": "Our contributions address the fundamental challenge of data scarcity that has historically prevented indigenous languages from benefiting from advances in language technology. We develop novel approaches for low-resource language processing and create tools that can operate in environments with limited connectivity.",
+      "area2Stats": [
+        {
+          "stat": "Low",
+          "label": "Resource Languages",
+          "description": "Developing techniques specifically for languages with limited digital presence and training data."
+        },
+        {
+          "stat": "Small",
+          "label": "Language Models",
+          "description": "Creating efficient, compact models that can run on limited hardware and work offline."
+        },
+        {
+          "stat": "Data",
+          "label": "Bottleneck Solutions",
+          "description": "Innovative approaches to overcome the fundamental challenge of limited training data, including transfer learning from related languages and data augmentation techniques."
+        }
+      ],
+      "area3Badge": "Area 3",
+      "area3Title": "Indigenous Data Ethics",
+      "area3Intro": "Ensuring that language preservation efforts respect community rights and cultural protocols while advancing digital inclusion.",
+      "area3PrinciplesTitle": "Our Ethical Principles",
+      "area3Principles": [
+        {
+          "title": "Community Ownership",
+          "description": "Data belongs to the communities from which it originates"
+        },
+        {
+          "title": "Informed Consent",
+          "description": "Clear, culturally appropriate consent processes for all participants"
+        },
+        {
+          "title": "Cultural Sensitivity",
+          "description": "Respecting sacred knowledge and cultural protocols in data handling"
+        },
+        {
+          "title": "Benefit Sharing",
+          "description": "Ensuring communities benefit from the research and tools developed"
+        },
+        {
+          "title": "Data Governance",
+          "description": "Community-led decisions on data access, use, and storage"
+        }
+      ]
+    },
+    "resources": {
+      "headerTitle": "Resources & Outputs",
+      "headerSubtitle": "Access our digital dictionaries, language corpora, publications, and tools",
+      "dictionariesTitle": "Digital Dictionaries",
+      "dictionariesSubtitle": "Mapped vocabularies and word lists",
+      "dictionaryCardLabel": "Dictionary",
+      "dictionaryButton": "View Dictionary",
+      "statusActive": "Active",
+      "statusInProgress": "In Progress",
+      "dictionaries": [
+        {
+          "language": "Che Wong",
+          "words": "1,200+",
+          "status": "Active"
+        },
+        {
+          "language": "Temuan",
+          "words": "950+",
+          "status": "Active"
+        },
+        {
+          "language": "Iban",
+          "words": "2,500+",
+          "status": "Active"
+        },
+        {
+          "language": "Bukar Sadong",
+          "words": "800+",
+          "status": "In Progress"
+        }
+      ],
+      "corporaTitle": "Language Corpora",
+      "corporaSubtitle": "Structured linguistic data collections",
+      "corporaRestricted": "Access restricted to protect community data",
+      "corporaButton": "Request Access",
+      "corpora": [
+        {
+          "title": "Sentence-Level Corpus",
+          "description": "A comprehensive collection of transcribed sentences across multiple domains including daily conversations, traditional stories, and thematic vocabulary. Each sentence is aligned with audio recordings and includes grammatical annotations.",
+          "tags": [
+            "Transcriptions",
+            "Audio Aligned",
+            "Grammatical Tags"
+          ]
+        },
+        {
+          "title": "Word-Level Corpus",
+          "description": "Detailed word entries with phonetic transcriptions, part-of-speech tags, definitions, example sentences, and cross-references to related words. Organized by semantic domains for easy navigation.",
+          "tags": [
+            "Phonetic IPA",
+            "POS Tagged",
+            "Semantic Domains"
+          ]
+        }
+      ],
+      "publicationsTitle": "Publications & Reports",
+      "publicationsSubtitle": "Academic papers and project documentation",
+      "publications": [
+        {
+          "title": "Ethical Frameworks for Indigenous Language Documentation in Southeast Asia",
+          "type": "Conference Paper",
+          "venue": "ACL 2024",
+          "status": "Coming Soon"
+        },
+        {
+          "title": "Low-Resource ASR for Orang Asli Languages: Challenges and Approaches",
+          "type": "Workshop Paper",
+          "venue": "LREC 2024",
+          "status": "Coming Soon"
+        },
+        {
+          "title": "IndigiSEA Annual Report 2024",
+          "type": "Report",
+          "venue": "Project Documentation",
+          "status": "Coming Soon"
+        }
+      ],
+      "toolsTitle": "Tools",
+      "toolsSubtitle": "Software and applications we've built",
+      "toolsButton": "Learn More",
+      "tools": [
+        {
+          "initial": "R",
+          "title": "IndigiSEA Recorder",
+          "description": "Mobile application for offline audio recording with structured prompts and automatic synchronization when connectivity is available."
+        },
+        {
+          "initial": "V",
+          "title": "Recording Reviewer",
+          "description": "Web-based platform for researchers and community validators to review, annotate, and approve collected recordings and transcriptions."
+        },
+        {
+          "initial": "D",
+          "title": "Dictionary Builder",
+          "description": "Collaborative tool for creating and maintaining digital dictionaries with support for audio pronunciations and example sentences."
+        }
+      ]
+    },
+    "people": {
+      "headerTitle": "The Team",
+      "headerSubtitle": "Meet the researchers, community partners, and collaborators driving IndigiSEA forward",
+      "piTitle": "Principal Investigators",
+      "piSubtitle": "Core research leadership",
+      "principalInvestigators": [
+        {
+          "name": "Dr. Mohan",
+          "role": "Principal Investigator",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Computational linguist specializing in low-resource language processing and Southeast Asian languages."
+        },
+        {
+          "name": "Dr. Soon",
+          "role": "Co-Principal Investigator",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Expert in indigenous languages of Malaysia with 15+ years of fieldwork experience."
+        },
+        {
+          "name": "Prof. Wong",
+          "role": "Co-Principal Investigator",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Researcher in AI ethics and indigenous data governance frameworks."
+        }
+      ],
+      "researchTeamTitle": "Research Team",
+      "researchers": [
+        {
+          "name": "John Doe",
+          "role": "Research Fellow",
+          "focus": "Speech Recognition"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Research Assistant",
+          "focus": "Language Documentation"
+        },
+        {
+          "name": "Alice Tan",
+          "role": "Community Liaison",
+          "focus": "Iban Languages"
+        },
+        {
+          "name": "Bob Lee",
+          "role": "Research Assistant",
+          "focus": "Data Annotation"
+        }
+      ],
+      "partnersTitle": "Community Partners & Advisors",
+      "partnersSubtitle": "The heart of our project",
+      "partnersIntro": "We are deeply grateful to our community partners who guide our work, share their knowledge, and ensure our research remains ethical, respectful, and beneficial to their communities.",
+      "communityPartners": [
+        {
+          "name": "Tok Batin Razak",
+          "community": "Che Wong",
+          "role": "Community Elder & Advisor"
+        },
+        {
+          "name": "Ketua Kampung Aminah",
+          "community": "Temuan",
+          "role": "Community Leader"
+        },
+        {
+          "name": "Tuai Rumah Jenang",
+          "community": "Iban",
+          "role": "Longhouse Chief & Cultural Advisor"
+        },
+        {
+          "name": "Penghulu Thomas",
+          "community": "Bukar Sadong",
+          "role": "District Leader & Language Expert"
+        }
+      ],
+      "collaboratorsTitle": "Collaborating Institutions",
+      "collaboratorsSubtitle": "Our partners in this mission",
+      "collaborators": [
+        {
+          "name": "Monash University Malaysia",
+          "type": "Academic",
+          "fullName": ""
+        },
+        {
+          "name": "JAKOA",
+          "type": "Government",
+          "fullName": "Department of Orang Asli Development"
+        },
+        {
+          "name": "JKKK",
+          "type": "Community",
+          "fullName": "Village Development & Security Committee"
+        },
+        {
+          "name": "DBP",
+          "type": "Government",
+          "fullName": "Dewan Bahasa dan Pustaka"
+        },
+        {
+          "name": "UNIMAS",
+          "type": "Academic",
+          "fullName": "Universiti Malaysia Sarawak"
+        },
+        {
+          "name": "Endangered Languages Project",
+          "type": "International",
+          "fullName": ""
+        }
+      ]
+    },
+    "blogs": {
+      "headerTitle": "News & Field Notes",
+      "headerSubtitle": "Updates from our fieldwork, research milestones, and community stories",
+      "readMore": "Read more",
+      "loadMore": "Load More Posts",
+      "newsletterTitle": "Stay Updated",
+      "newsletterSubtitle": "Subscribe to our newsletter for the latest updates on our research and community work.",
+      "newsletterPlaceholder": "Enter your email",
+      "newsletterButton": "Subscribe",
+      "categories": [
+        {
+          "name": "All",
+          "count": 6
+        },
+        {
+          "name": "Fieldwork",
+          "count": 2
+        },
+        {
+          "name": "Milestone",
+          "count": 2
+        },
+        {
+          "name": "Research",
+          "count": 2
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "IndigiSEA Reaches 1,000 Mapped Words for Bahasa Iban!",
+          "category": "Milestone",
+          "date": "December 15, 2024",
+          "excerpt": "We are thrilled to announce that our Iban dictionary has crossed the 1,000-word milestone, marking a significant step in documenting this important language of Sarawak."
+        },
+        {
+          "id": 2,
+          "title": "Fieldwork Update: Recording Sessions with the Che Wong Community",
+          "category": "Fieldwork",
+          "date": "November 28, 2024",
+          "excerpt": "Our team spent two weeks with the Che Wong community in Pahang, conducting recording sessions and training community members to use the IndigiSEA Recorder app."
+        },
+        {
+          "id": 3,
+          "title": "Presenting at LREC 2024: Low-Resource ASR for Orang Asli Languages",
+          "category": "Research",
+          "date": "November 10, 2024",
+          "excerpt": "Our research on automatic speech recognition challenges for Orang Asli languages was presented at the Language Resources and Evaluation Conference in Turin, Italy."
+        },
+        {
+          "id": 4,
+          "title": "Community Workshop: Digital Tools for Language Preservation",
+          "category": "Fieldwork",
+          "date": "October 22, 2024",
+          "excerpt": "We organized a workshop in Kuching bringing together community representatives from across Sarawak to learn about digital documentation tools and share best practices."
+        },
+        {
+          "id": 5,
+          "title": "New Partnership with UNIMAS for Bidayuh Language Documentation",
+          "category": "Milestone",
+          "date": "October 5, 2024",
+          "excerpt": "IndigiSEA is excited to announce a new collaboration with Universiti Malaysia Sarawak to expand our documentation efforts to additional Bidayuh dialects."
+        },
+        {
+          "id": 6,
+          "title": "Ethics Framework Published: Indigenous Data Governance Guidelines",
+          "category": "Research",
+          "date": "September 18, 2024",
+          "excerpt": "Our team has published comprehensive guidelines for ethical data collection and governance when working with indigenous language communities."
+        }
+      ]
+    },
+    "contact": {
+      "headerTitle": "Contact Us",
+      "headerSubtitle": "Get in touch with our team for research inquiries, partnership opportunities, or community engagement",
+      "infoTitle": "Get in Touch",
+      "infoIntro": "We welcome inquiries from researchers, community members, potential collaborators, and anyone interested in indigenous language preservation.",
+      "contactInfo": [
+        {
+          "title": "Email",
+          "details": [
+            "contact@indigisea.org",
+            "research@indigisea.org"
+          ]
+        },
+        {
+          "title": "Main Office",
+          "details": [
+            "Monash University Malaysia",
+            "Jalan Lagoon Selatan",
+            "47500 Bandar Sunway, Selangor"
+          ]
+        },
+        {
+          "title": "Phone",
+          "details": [
+            "+60 3-5514 6000"
+          ]
+        }
+      ],
+      "formTitle": "Send us a Message",
+      "formFirstName": "First Name",
+      "formLastName": "Last Name",
+      "formEmail": "Email",
+      "formSubject": "Subject",
+      "formSubjectPlaceholder": "Select a subject",
+      "formSubjectOptions": [
+        "Research Inquiry",
+        "Partnership Opportunity",
+        "Community Engagement",
+        "Media Inquiry",
+        "Other"
+      ],
+      "formMessage": "Message",
+      "formMessagePlaceholder": "How can we help you?",
+      "formButton": "Send Message",
+      "teamTitle": "Team Locations",
+      "teamSubtitle": "Contact our team members directly based on your area of interest",
+      "teamLocations": [
+        {
+          "name": "Dr. Mohan",
+          "role": "Principal Investigator",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "mohan@indigisea.org"
+        },
+        {
+          "name": "Dr. Soon",
+          "role": "Co-Principal Investigator",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "soon@indigisea.org"
+        },
+        {
+          "name": "Prof. Wong",
+          "role": "Co-Principal Investigator",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "wong@indigisea.org"
+        },
+        {
+          "name": "David Anak Janting",
+          "role": "Community Liaison - Sarawak",
+          "location": "Kuching, Sarawak",
+          "email": "david.janting@indigisea.org"
+        }
+      ],
+      "mapTitle": "Our Presence",
+      "mapSubtitle": "IndigiSEA operates across Peninsular Malaysia and Sarawak, working closely with indigenous communities.",
+      "mapPlaceholderTitle": "Interactive Map Coming Soon",
+      "mapPlaceholderSubtitle": "Visualizing our research locations and community partnerships across Southeast Asia"
+    }
+  },
+  "ms": {
+    "nav": {
+      "brand": "IndigiSEA",
+      "items": [
+        {
+          "key": "home",
+          "label": "Laman Utama"
+        },
+        {
+          "key": "about",
+          "label": "Tentang"
+        },
+        {
+          "key": "research",
+          "label": "Penyelidikan"
+        },
+        {
+          "key": "resources",
+          "label": "Sumber"
+        },
+        {
+          "key": "people",
+          "label": "Pasukan"
+        },
+        {
+          "key": "blogs",
+          "label": "Blog"
+        },
+        {
+          "key": "contact",
+          "label": "Hubungi"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Merapatkan jurang digital bagi bahasa Orang Asal Asia Tenggara melalui penyelidikan beretika, perkongsian komuniti, dan teknologi yang mudah diakses.",
+      "projectTitle": "Projek",
+      "connectTitle": "Hubungi",
+      "rights": "Hak cipta terpelihara."
+    },
+    "home": {
+      "heroTitle": "Merapatkan Jurang Digital bagi Bahasa Orang Asal Asia Tenggara",
+      "heroSubtitle": "Dengan lebih 800 bahasa di Malaysia dan Indonesia, kebanyakannya terancam kritikal, IndigiSEA akan membina rakyat, proses, dan perkongsian yang penting untuk kelestarian linguistik jangka panjang. Projek ini akan membangunkan rangka kerja beretika, model penyelidikan penyertaan, dan platform digital yang memupuk akses, inovasi, dan kepimpinan komuniti untuk memajukan masa depan digital beretika bagi bahasa Orang Asal.",
+      "heroPrimaryCta": "Ketahui Lebih Lanjut",
+      "heroSecondaryCta": "Lihat Sumber Kami",
+      "missionQuote": "Memperkasakan komuniti dengan membawa suara mereka ke era digital melalui penyelidikan beretika dan teknologi inklusif.",
+      "approachTitle": "Pendekatan Kami",
+      "approachSubtitle": "Membina penyelesaian mampan untuk pemeliharaan bahasa Orang Asal",
+      "highlights": [
+        {
+          "title": "Komuniti Diutamakan",
+          "description": "Bekerjasama secara langsung dengan penutur dan komuniti Orang Asal untuk memastikan perwakilan dan pemilikan warisan linguistik mereka yang sahih."
+        },
+        {
+          "title": "Dokumentasi Bahasa",
+          "description": "Membina korpus digital yang menyeluruh melalui dokumentasi teliti perbendaharaan kata, ayat, dan rakaman audio."
+        },
+        {
+          "title": "Teknologi Mudah Diakses",
+          "description": "Mencipta alat seperti kamus digital, model bahasa, dan aplikasi rakaman luar talian yang memperkasakan komuniti."
+        }
+      ],
+      "ctaTitle": "Terokai Kerja Kami",
+      "ctaSubtitle": "Temui hasil penyelidikan, sumber digital, dan komuniti yang menjadi rakan kongsi kami.",
+      "ctaPrimary": "Lihat Kamus Kami",
+      "ctaSecondary": "Terokai Penyelidikan",
+      "communitiesTitle": "Komuniti Yang Kami Bantu",
+      "communitiesSubtitle": "Bekerjasama dengan komuniti Orang Asal di seluruh Asia Tenggara",
+      "communityLabel": "Komuniti Orang Asal",
+      "communities": [
+        "Che Wong",
+        "Temuan",
+        "Iban",
+        "Bukar Sadong"
+      ]
+    },
+    "about": {
+      "headerTitle": "Tentang Projek",
+      "headerSubtitle": "Memahami cabaran dan pendekatan kami dalam memelihara bahasa Orang Asal Asia Tenggara",
+      "problemTitle": "Masalahnya",
+      "problemParagraphs": [
+        "Asia Tenggara mempunyai kepelbagaian linguistik yang luar biasa, dengan lebih 800 bahasa dituturkan di Malaysia dan Indonesia sahaja. Namun begitu, warisan kaya ini menghadapi ancaman yang belum pernah berlaku.",
+        "Kebanyakan bahasa ini terancam kritikal, dengan bilangan penutur yang semakin berkurangan dan dokumentasi yang terhad. Apabila generasi tua meninggal dunia, pengetahuan linguistik, tradisi budaya, dan pandangan dunia yang tidak ternilai berisiko hilang selama-lamanya.",
+        "Jurang digital memburukkan lagi krisis ini. Walaupun teknologi maju dengan pesat, bahasa Orang Asal sebahagian besarnya tidak hadir dalam ruang digital, mewujudkan halangan kepada pendidikan, komunikasi, dan pemeliharaan budaya bagi komuniti mereka."
+      ],
+      "statBigNumber": "800+",
+      "statBigLabel": "Bahasa",
+      "statBigSub": "Di Malaysia dan Indonesia",
+      "statSmallNumber": "Kebanyakan",
+      "statSmallLabel": "Terancam Kritikal",
+      "statSmallSub": "Berisiko untuk hilang",
+      "approachTitle": "Pendekatan Kami",
+      "approachSubtitle": "Metodologi holistik yang menggabungkan penyelidikan, teknologi, dan penglibatan komuniti",
+      "approachItems": [
+        {
+          "title": "Rangka Kerja Beretika",
+          "description": "Membangunkan garis panduan yang menghormati kedaulatan data Orang Asal dan memastikan pemilikan komuniti terhadap data linguistik mereka."
+        },
+        {
+          "title": "Penyelidikan Penyertaan",
+          "description": "Melibatkan ahli komuniti sebagai peserta aktif dan penyelidik bersama, bukan sekadar subjek kajian."
+        },
+        {
+          "title": "Platform Digital",
+          "description": "Membina alat dan platform mudah diakses yang boleh digunakan komuniti untuk mendokumentasi, mempelajari, dan memelihara bahasa mereka."
+        },
+        {
+          "title": "Pembinaan Keupayaan",
+          "description": "Melatih ahli komuniti dalam teknik dokumentasi bahasa dan penggunaan alat digital."
+        },
+        {
+          "title": "Perkongsian Jangka Panjang",
+          "description": "Mewujudkan hubungan mampan dengan komuniti, institusi, dan kerajaan untuk sokongan berterusan."
+        },
+        {
+          "title": "Inovasi Terbuka",
+          "description": "Berkongsi metodologi dan alat secara terbuka untuk memanfaatkan usaha pemeliharaan bahasa di seluruh dunia."
+        }
+      ],
+      "communitiesTitle": "Komuniti",
+      "communitiesSubtitle": "Komuniti rakan kongsi yang menjadi tunjang kerja kami",
+      "communities": [
+        {
+          "name": "Che Wong",
+          "subtitle": "Komuniti Orang Asli, Malaysia",
+          "description": "Che Wong ialah kumpulan Orang Asal yang mendiami hutan hujan di Pahang, Malaysia. Bahasa mereka membawa pengetahuan unik tentang ekosistem hutan dan amalan tradisional yang diwariskan turun-temurun."
+        },
+        {
+          "name": "Temuan",
+          "subtitle": "Komuniti Orang Asli, Malaysia",
+          "description": "Masyarakat Temuan ialah salah satu subkumpulan Orang Asli terbesar di Semenanjung Malaysia. Bahasa dan tradisi lisan mereka mengandungi warisan budaya yang kaya dan pengetahuan ekologi tradisional."
+        },
+        {
+          "name": "Iban",
+          "subtitle": "Komuniti Orang Asal, Sarawak",
+          "description": "Iban ialah kumpulan Orang Asal terbesar di Sarawak, Borneo Malaysia. Walaupun bahasa mereka mempunyai lebih ramai penutur berbanding sesetengah bahasa Orang Asal lain, mendokumentasikan variasi dialek dan perbendaharaan kata tradisional tetap penting."
+        },
+        {
+          "name": "Bukar Sadong",
+          "subtitle": "Subkumpulan Bidayuh, Sarawak",
+          "description": "Bukar Sadong ialah subkumpulan masyarakat Bidayuh di Sarawak. Bahasa dan amalan budaya mereka yang tersendiri mewakili bahagian penting warisan Orang Asal Borneo."
+        }
+      ]
+    },
+    "research": {
+      "headerTitle": "Penyelidikan Kami",
+      "headerSubtitle": "Kerja terkini merentasi linguistik, teknologi, dan etika untuk memelihara bahasa Orang Asal",
+      "area1Badge": "Bidang 1",
+      "area1Title": "Dokumentasi Linguistik",
+      "area1Intro": "Membina rekod menyeluruh bahasa Orang Asal melalui pengumpulan data sistematik dan kerjasama komuniti.",
+      "area1Cards": [
+        {
+          "title": "Rakaman Audio",
+          "description": "Rakaman audio berkualiti tinggi merakam sebutan, intonasi, dan pola pertuturan semula jadi. Rakaman ini membina pemahaman asas tentang fonologi dan prosodi setiap bahasa."
+        },
+        {
+          "title": "Aplikasi Perakam IndigiSEA",
+          "description": "Aplikasi mudah alih buatan kami membolehkan rakaman luar talian di kawasan terpencil tanpa sambungan internet, membolehkan ahli komuniti menyumbang rakaman dari mana-mana sahaja."
+        },
+        {
+          "title": "Perbendaharaan Kata & Ayat",
+          "description": "Pengumpulan sistematik perbendaharaan kata harian, ayat bertema, dan perbualan semula jadi. Perkataan dan ayat dijana melalui sesi elisitasi berstruktur dengan penutur asli."
+        }
+      ],
+      "area2Badge": "Bidang 2",
+      "area2Title": "Infrastruktur Digital & AI",
+      "area2Intro": "Membina asas teknologi untuk menyokong bahasa Orang Asal dalam era digital, daripada alat pengumpulan data hingga model bahasa.",
+      "area2Body": "Sumbangan kami menangani cabaran asas kekurangan data yang secara sejarahnya menghalang bahasa Orang Asal daripada memanfaatkan kemajuan teknologi bahasa. Kami membangunkan pendekatan baharu untuk pemprosesan bahasa sumber rendah dan mencipta alat yang boleh beroperasi dalam persekitaran dengan sambungan terhad.",
+      "area2Stats": [
+        {
+          "stat": "Rendah",
+          "label": "Bahasa Sumber",
+          "description": "Membangunkan teknik khusus untuk bahasa dengan kehadiran digital dan data latihan yang terhad."
+        },
+        {
+          "stat": "Kecil",
+          "label": "Model Bahasa",
+          "description": "Mencipta model padat dan cekap yang boleh dijalankan pada perkakasan terhad dan berfungsi luar talian."
+        },
+        {
+          "stat": "Data",
+          "label": "Penyelesaian Halangan",
+          "description": "Pendekatan inovatif untuk mengatasi cabaran asas data latihan yang terhad, termasuk pembelajaran pindahan daripada bahasa berkaitan dan teknik penambahan data."
+        }
+      ],
+      "area3Badge": "Bidang 3",
+      "area3Title": "Etika Data Orang Asal",
+      "area3Intro": "Memastikan usaha pemeliharaan bahasa menghormati hak komuniti dan protokol budaya sambil memajukan inklusi digital.",
+      "area3PrinciplesTitle": "Prinsip Etika Kami",
+      "area3Principles": [
+        {
+          "title": "Pemilikan Komuniti",
+          "description": "Data adalah milik komuniti tempat asalnya"
+        },
+        {
+          "title": "Persetujuan Termaklum",
+          "description": "Proses persetujuan yang jelas dan sesuai dari segi budaya untuk semua peserta"
+        },
+        {
+          "title": "Kepekaan Budaya",
+          "description": "Menghormati pengetahuan suci dan protokol budaya dalam pengendalian data"
+        },
+        {
+          "title": "Perkongsian Manfaat",
+          "description": "Memastikan komuniti memperoleh manfaat daripada penyelidikan dan alat yang dibangunkan"
+        },
+        {
+          "title": "Tadbir Urus Data",
+          "description": "Keputusan dipimpin komuniti tentang akses, penggunaan, dan penyimpanan data"
+        }
+      ]
+    },
+    "resources": {
+      "headerTitle": "Sumber & Hasil",
+      "headerSubtitle": "Akses kamus digital, korpus bahasa, penerbitan, dan alat kami",
+      "dictionariesTitle": "Kamus Digital",
+      "dictionariesSubtitle": "Perbendaharaan kata dan senarai perkataan yang dipetakan",
+      "dictionaryCardLabel": "Kamus",
+      "dictionaryButton": "Lihat Kamus",
+      "statusActive": "Aktif",
+      "statusInProgress": "Dalam Proses",
+      "dictionaries": [
+        {
+          "language": "Che Wong",
+          "words": "1,200+",
+          "status": "Aktif"
+        },
+        {
+          "language": "Temuan",
+          "words": "950+",
+          "status": "Aktif"
+        },
+        {
+          "language": "Iban",
+          "words": "2,500+",
+          "status": "Aktif"
+        },
+        {
+          "language": "Bukar Sadong",
+          "words": "800+",
+          "status": "Dalam Proses"
+        }
+      ],
+      "corporaTitle": "Korpus Bahasa",
+      "corporaSubtitle": "Koleksi data linguistik berstruktur",
+      "corporaRestricted": "Akses terhad untuk melindungi data komuniti",
+      "corporaButton": "Mohon Akses",
+      "corpora": [
+        {
+          "title": "Korpus Peringkat Ayat",
+          "description": "Koleksi menyeluruh ayat yang ditranskripsi merentasi pelbagai domain termasuk perbualan harian, cerita tradisional, dan perbendaharaan kata bertema. Setiap ayat diselaraskan dengan rakaman audio dan menyertakan anotasi tatabahasa.",
+          "tags": [
+            "Transkripsi",
+            "Selaras Audio",
+            "Tag Tatabahasa"
+          ]
+        },
+        {
+          "title": "Korpus Peringkat Perkataan",
+          "description": "Entri perkataan terperinci dengan transkripsi fonetik, tag bahagian pertuturan, definisi, contoh ayat, dan rujukan silang kepada perkataan berkaitan. Disusun mengikut domain semantik untuk navigasi mudah.",
+          "tags": [
+            "IPA Fonetik",
+            "Bertag POS",
+            "Domain Semantik"
+          ]
+        }
+      ],
+      "publicationsTitle": "Penerbitan & Laporan",
+      "publicationsSubtitle": "Kertas akademik dan dokumentasi projek",
+      "publications": [
+        {
+          "title": "Rangka Kerja Beretika untuk Dokumentasi Bahasa Orang Asal di Asia Tenggara",
+          "type": "Kertas Persidangan",
+          "venue": "ACL 2024",
+          "status": "Akan Datang"
+        },
+        {
+          "title": "ASR Sumber Rendah untuk Bahasa Orang Asli: Cabaran dan Pendekatan",
+          "type": "Kertas Bengkel",
+          "venue": "LREC 2024",
+          "status": "Akan Datang"
+        },
+        {
+          "title": "Laporan Tahunan IndigiSEA 2024",
+          "type": "Laporan",
+          "venue": "Dokumentasi Projek",
+          "status": "Akan Datang"
+        }
+      ],
+      "toolsTitle": "Alat",
+      "toolsSubtitle": "Perisian dan aplikasi yang kami bina",
+      "toolsButton": "Ketahui Lebih Lanjut",
+      "tools": [
+        {
+          "initial": "R",
+          "title": "Perakam IndigiSEA",
+          "description": "Aplikasi mudah alih untuk rakaman audio luar talian dengan gesaan berstruktur dan penyegerakan automatik apabila sambungan tersedia."
+        },
+        {
+          "initial": "V",
+          "title": "Penyemak Rakaman",
+          "description": "Platform berasaskan web untuk penyelidik dan pengesah komuniti menyemak, menganotasi, dan meluluskan rakaman serta transkripsi yang dikumpulkan."
+        },
+        {
+          "initial": "D",
+          "title": "Pembina Kamus",
+          "description": "Alat kolaboratif untuk mencipta dan menyelenggara kamus digital dengan sokongan sebutan audio dan contoh ayat."
+        }
+      ]
+    },
+    "people": {
+      "headerTitle": "Pasukan",
+      "headerSubtitle": "Kenali para penyelidik, rakan komuniti, dan kolaborator yang memacu IndigiSEA",
+      "piTitle": "Penyelidik Utama",
+      "piSubtitle": "Kepimpinan teras penyelidikan",
+      "principalInvestigators": [
+        {
+          "name": "Dr. Mohan",
+          "role": "Penyelidik Utama",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Ahli linguistik komputasi yang pakar dalam pemprosesan bahasa sumber rendah dan bahasa Asia Tenggara."
+        },
+        {
+          "name": "Dr. Soon",
+          "role": "Penyelidik Utama Bersama",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Pakar bahasa Orang Asal Malaysia dengan lebih 15 tahun pengalaman kerja lapangan."
+        },
+        {
+          "name": "Prof. Wong",
+          "role": "Penyelidik Utama Bersama",
+          "affiliation": "Monash University Malaysia",
+          "bio": "Penyelidik dalam etika AI dan rangka kerja tadbir urus data Orang Asal."
+        }
+      ],
+      "researchTeamTitle": "Pasukan Penyelidikan",
+      "researchers": [
+        {
+          "name": "John Doe",
+          "role": "Felo Penyelidik",
+          "focus": "Pengecaman Pertuturan"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Pembantu Penyelidik",
+          "focus": "Dokumentasi Bahasa"
+        },
+        {
+          "name": "Alice Tan",
+          "role": "Penghubung Komuniti",
+          "focus": "Bahasa Iban"
+        },
+        {
+          "name": "Bob Lee",
+          "role": "Pembantu Penyelidik",
+          "focus": "Anotasi Data"
+        }
+      ],
+      "partnersTitle": "Rakan & Penasihat Komuniti",
+      "partnersSubtitle": "Tunjang projek kami",
+      "partnersIntro": "Kami amat berterima kasih kepada rakan komuniti kami yang membimbing kerja kami, berkongsi pengetahuan, dan memastikan penyelidikan kami kekal beretika, hormat, dan bermanfaat kepada komuniti mereka.",
+      "communityPartners": [
+        {
+          "name": "Tok Batin Razak",
+          "community": "Che Wong",
+          "role": "Tetua & Penasihat Komuniti"
+        },
+        {
+          "name": "Ketua Kampung Aminah",
+          "community": "Temuan",
+          "role": "Pemimpin Komuniti"
+        },
+        {
+          "name": "Tuai Rumah Jenang",
+          "community": "Iban",
+          "role": "Ketua Rumah Panjang & Penasihat Budaya"
+        },
+        {
+          "name": "Penghulu Thomas",
+          "community": "Bukar Sadong",
+          "role": "Pemimpin Daerah & Pakar Bahasa"
+        }
+      ],
+      "collaboratorsTitle": "Institusi Kerjasama",
+      "collaboratorsSubtitle": "Rakan kongsi kami dalam misi ini",
+      "collaborators": [
+        {
+          "name": "Monash University Malaysia",
+          "type": "Akademik",
+          "fullName": ""
+        },
+        {
+          "name": "JAKOA",
+          "type": "Kerajaan",
+          "fullName": "Jabatan Kemajuan Orang Asli"
+        },
+        {
+          "name": "JKKK",
+          "type": "Komuniti",
+          "fullName": "Jawatankuasa Kemajuan & Keselamatan Kampung"
+        },
+        {
+          "name": "DBP",
+          "type": "Kerajaan",
+          "fullName": "Dewan Bahasa dan Pustaka"
+        },
+        {
+          "name": "UNIMAS",
+          "type": "Akademik",
+          "fullName": "Universiti Malaysia Sarawak"
+        },
+        {
+          "name": "Endangered Languages Project",
+          "type": "Antarabangsa",
+          "fullName": ""
+        }
+      ]
+    },
+    "blogs": {
+      "headerTitle": "Berita & Nota Lapangan",
+      "headerSubtitle": "Kemas kini daripada kerja lapangan, pencapaian penyelidikan, dan kisah komuniti kami",
+      "readMore": "Baca lagi",
+      "loadMore": "Muat Lagi Pos",
+      "newsletterTitle": "Kekal Dikemas Kini",
+      "newsletterSubtitle": "Langgan surat berita kami untuk kemas kini terkini tentang penyelidikan dan kerja komuniti kami.",
+      "newsletterPlaceholder": "Masukkan e-mel anda",
+      "newsletterButton": "Langgan",
+      "categories": [
+        {
+          "name": "Semua",
+          "count": 6
+        },
+        {
+          "name": "Kerja Lapangan",
+          "count": 2
+        },
+        {
+          "name": "Pencapaian",
+          "count": 2
+        },
+        {
+          "name": "Penyelidikan",
+          "count": 2
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "IndigiSEA Mencapai 1,000 Perkataan Dipetakan untuk Bahasa Iban!",
+          "category": "Pencapaian",
+          "date": "15 Disember 2024",
+          "excerpt": "Kami amat gembira untuk mengumumkan bahawa kamus Iban kami telah melepasi pencapaian 1,000 perkataan, menandakan langkah penting dalam mendokumentasikan bahasa penting Sarawak ini."
+        },
+        {
+          "id": 2,
+          "title": "Kemas Kini Lapangan: Sesi Rakaman bersama Komuniti Che Wong",
+          "category": "Kerja Lapangan",
+          "date": "28 November 2024",
+          "excerpt": "Pasukan kami menghabiskan dua minggu bersama komuniti Che Wong di Pahang, menjalankan sesi rakaman dan melatih ahli komuniti menggunakan aplikasi Perakam IndigiSEA."
+        },
+        {
+          "id": 3,
+          "title": "Membentangkan di LREC 2024: ASR Sumber Rendah untuk Bahasa Orang Asli",
+          "category": "Penyelidikan",
+          "date": "10 November 2024",
+          "excerpt": "Penyelidikan kami tentang cabaran pengecaman pertuturan automatik untuk bahasa Orang Asli telah dibentangkan di Persidangan Sumber dan Penilaian Bahasa di Turin, Itali."
+        },
+        {
+          "id": 4,
+          "title": "Bengkel Komuniti: Alat Digital untuk Pemeliharaan Bahasa",
+          "category": "Kerja Lapangan",
+          "date": "22 Oktober 2024",
+          "excerpt": "Kami menganjurkan bengkel di Kuching yang menghimpunkan wakil komuniti dari seluruh Sarawak untuk mempelajari alat dokumentasi digital dan berkongsi amalan terbaik."
+        },
+        {
+          "id": 5,
+          "title": "Perkongsian Baharu dengan UNIMAS untuk Dokumentasi Bahasa Bidayuh",
+          "category": "Pencapaian",
+          "date": "5 Oktober 2024",
+          "excerpt": "IndigiSEA dengan sukacitanya mengumumkan kerjasama baharu dengan Universiti Malaysia Sarawak untuk meluaskan usaha dokumentasi kepada dialek Bidayuh tambahan."
+        },
+        {
+          "id": 6,
+          "title": "Rangka Kerja Etika Diterbitkan: Garis Panduan Tadbir Urus Data Orang Asal",
+          "category": "Penyelidikan",
+          "date": "18 September 2024",
+          "excerpt": "Pasukan kami telah menerbitkan garis panduan menyeluruh untuk pengumpulan data dan tadbir urus beretika apabila bekerja dengan komuniti bahasa Orang Asal."
+        }
+      ]
+    },
+    "contact": {
+      "headerTitle": "Hubungi Kami",
+      "headerSubtitle": "Hubungi pasukan kami untuk pertanyaan penyelidikan, peluang kerjasama, atau penglibatan komuniti",
+      "infoTitle": "Berhubung",
+      "infoIntro": "Kami mengalu-alukan pertanyaan daripada penyelidik, ahli komuniti, bakal kolaborator, dan sesiapa sahaja yang berminat dengan pemeliharaan bahasa Orang Asal.",
+      "contactInfo": [
+        {
+          "title": "E-mel",
+          "details": [
+            "contact@indigisea.org",
+            "research@indigisea.org"
+          ]
+        },
+        {
+          "title": "Pejabat Utama",
+          "details": [
+            "Monash University Malaysia",
+            "Jalan Lagoon Selatan",
+            "47500 Bandar Sunway, Selangor"
+          ]
+        },
+        {
+          "title": "Telefon",
+          "details": [
+            "+60 3-5514 6000"
+          ]
+        }
+      ],
+      "formTitle": "Hantar Mesej kepada Kami",
+      "formFirstName": "Nama Pertama",
+      "formLastName": "Nama Akhir",
+      "formEmail": "E-mel",
+      "formSubject": "Subjek",
+      "formSubjectPlaceholder": "Pilih subjek",
+      "formSubjectOptions": [
+        "Pertanyaan Penyelidikan",
+        "Peluang Kerjasama",
+        "Penglibatan Komuniti",
+        "Pertanyaan Media",
+        "Lain-lain"
+      ],
+      "formMessage": "Mesej",
+      "formMessagePlaceholder": "Bagaimana kami boleh membantu anda?",
+      "formButton": "Hantar Mesej",
+      "teamTitle": "Lokasi Pasukan",
+      "teamSubtitle": "Hubungi ahli pasukan kami secara langsung berdasarkan bidang minat anda",
+      "teamLocations": [
+        {
+          "name": "Dr. Mohan",
+          "role": "Penyelidik Utama",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "mohan@indigisea.org"
+        },
+        {
+          "name": "Dr. Soon",
+          "role": "Penyelidik Utama Bersama",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "soon@indigisea.org"
+        },
+        {
+          "name": "Prof. Wong",
+          "role": "Penyelidik Utama Bersama",
+          "location": "Monash University Malaysia, Selangor",
+          "email": "wong@indigisea.org"
+        },
+        {
+          "name": "David Anak Janting",
+          "role": "Penghubung Komuniti - Sarawak",
+          "location": "Kuching, Sarawak",
+          "email": "david.janting@indigisea.org"
+        }
+      ],
+      "mapTitle": "Kehadiran Kami",
+      "mapSubtitle": "IndigiSEA beroperasi merentasi Semenanjung Malaysia dan Sarawak, bekerjasama rapat dengan komuniti Orang Asal.",
+      "mapPlaceholderTitle": "Peta Interaktif Akan Datang",
+      "mapPlaceholderSubtitle": "Menggambarkan lokasi penyelidikan dan perkongsian komuniti kami di seluruh Asia Tenggara"
+    }
+  }
+}
