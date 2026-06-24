@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { Skeleton } from "@/components/ui/skeleton"
 import ViewPage from "@/components/view-page"
 import { LocaleContent } from "@/payload/content-types"
 import { ArrowRight, BookOpen, Cpu, Users } from "lucide-react"
@@ -16,6 +17,58 @@ export default function HomePage() {
 }
 
 function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) {
+  const viewHeroTitle = () => {
+    if (!data) {
+      return (
+        <div className="flex h-40 flex-col gap-3 sm:h-45 sm:gap-4">
+          <Skeleton className="h-full w-full bg-muted/20" />
+          <Skeleton className="h-full w-full bg-muted/20 sm:hidden" />
+          <Skeleton className="h-full w-9/10 bg-muted/20" />
+          <Skeleton className="h-full w-3/4 bg-muted/20" />
+        </div>
+      )
+    }
+
+    return (
+      <h1 className="text-4xl font-bold tracking-tight text-balance text-background sm:text-5xl lg:text-6xl">
+        {data?.heroTitle}
+      </h1>
+    )
+  }
+
+  const viewHeroSubtitle = () => {
+    if (!data) {
+      return (
+        <div className="mt-6 flex h-40 flex-col gap-3 text-lg leading-relaxed text-pretty text-background/80 sm:gap-4">
+          <Skeleton className="h-full w-full bg-muted/20" />
+          <Skeleton className="h-full w-full bg-muted/20" />
+          <Skeleton className="h-full w-full bg-muted/20" />
+          <Skeleton className="h-full w-9/10 bg-muted/20" />
+          <Skeleton className="h-full w-1/2 bg-muted/20" />
+        </div>
+      )
+    }
+
+    return <p className="mt-6 text-lg leading-relaxed text-pretty text-background/80">{data?.heroSubtitle}</p>
+  }
+
+  const viewMissionQuote = () => {
+    if (!data) {
+      return (
+        <div className="flex h-16 flex-col items-center justify-center gap-3 sm:text-2xl">
+          <Skeleton className="h-full w-9/10" />
+          <Skeleton className="h-full w-3/4" />
+        </div>
+      )
+    }
+
+    return (
+      <p className="text-xl leading-relaxed font-medium text-foreground sm:text-2xl">
+        &ldquo;{data?.missionQuote}&rdquo;
+      </p>
+    )
+  }
+
   return (
     <div>
       {/* Hero Section */}
@@ -23,19 +76,19 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-bold tracking-tight text-balance text-background sm:text-5xl lg:text-6xl">
-              {data?.heroTitle}
-            </h1>
-            <p className="mt-6 text-lg leading-relaxed text-pretty text-background/80">{data?.heroSubtitle}</p>
+            {viewHeroTitle()}
+            {viewHeroSubtitle()}
             <div className="mt-10 flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
                 <Link href="/about">
-                  {data?.heroPrimaryCta}
+                  {data ? data.heroPrimaryCta : <Skeleton className="h-6 w-48 bg-muted/0" />}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-background/30 hover:bg-background/80">
-                <Link href="/resources">{data?.heroSecondaryCta}</Link>
+                <Link href="/resources">
+                  {data ? data.heroSecondaryCta : <Skeleton className="h-6 w-32 bg-foreground/0" />}
+                </Link>
               </Button>
             </div>
           </div>
@@ -45,11 +98,7 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
       {/* Mission Statement */}
       <section className="border-b border-border py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-xl leading-relaxed font-medium text-foreground sm:text-2xl">
-              &ldquo;{data?.missionQuote}&rdquo;
-            </p>
-          </div>
+          <div className="mx-auto max-w-3xl text-center">{viewMissionQuote()}</div>
         </div>
       </section>
 
@@ -62,7 +111,7 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
           </div>
 
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {data?.highlights?.map((highlight, index) => {
+            {data?.highlights.map((highlight, index) => {
               const Icon = highlightIcons[index] ?? Users
               return (
                 <div
