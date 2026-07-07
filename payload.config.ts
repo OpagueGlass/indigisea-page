@@ -28,10 +28,10 @@ export default buildConfig({
     livePreview: {
       url: ({ globalConfig }) => {
         const url = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
-        if (globalConfig.slug === "home") {
+        if (globalConfig?.slug === "home") {
           return `${url}/`
         }
-        return `${url}/${globalConfig.slug}`
+        return `${url}/${globalConfig?.slug}`
       },
       globals: ["home", "about", "research", "resources", "people", "blogs", "contact"],
     },
