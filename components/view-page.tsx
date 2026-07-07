@@ -27,9 +27,10 @@ export function ContentQuery<T extends Page>(page: T, locale: string) {
 export function LiveView<T extends Page>(data: LocaleContent[T], page: T) {
   const { data: liveData } = useLivePreview({
     initialData: data,
-    serverURL: process.env.DEPLOYMENT_URL || "http://localhost:3000",
+    serverURL: process.env.NEXT_PUBLIC_DEPLOYMENT_URL || "http://localhost:3000",
     depth: 2,
   })
+  
   return liveData
 }
 
