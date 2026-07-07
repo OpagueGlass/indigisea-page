@@ -16,59 +16,86 @@ export default function HomePage() {
   })
 }
 
+const viewHeroTitle = (data: LocaleContent["home"] | null | undefined) => {
+  if (!data) {
+    return (
+      <div className="flex h-40 flex-col gap-3 sm:h-45 sm:gap-4">
+        <Skeleton className="h-full w-full bg-muted/20" />
+        <Skeleton className="h-full w-full bg-muted/20 sm:hidden" />
+        <Skeleton className="h-full w-9/10 bg-muted/20" />
+        <Skeleton className="h-full w-3/4 bg-muted/20" />
+      </div>
+    )
+  }
+
+  return (
+    <h1 className="text-4xl font-bold tracking-tight text-balance text-background sm:text-5xl lg:text-6xl">
+      {data?.heroTitle}
+    </h1>
+  )
+}
+
+const viewHeroSubtitle = (data: LocaleContent["home"] | null | undefined) => {
+  if (!data) {
+    return (
+      <div className="mt-6 flex h-40 flex-col gap-3 text-lg leading-relaxed text-pretty text-background/80 sm:gap-4">
+        <Skeleton className="h-full w-full bg-muted/20" />
+        <Skeleton className="h-full w-full bg-muted/20" />
+        <Skeleton className="h-full w-full bg-muted/20" />
+        <Skeleton className="h-full w-9/10 bg-muted/20" />
+        <Skeleton className="h-full w-1/2 bg-muted/20" />
+      </div>
+    )
+  }
+
+  return <p className="mt-6 text-lg leading-relaxed text-pretty text-background/80">{data?.heroSubtitle}</p>
+}
+
+const viewMissionQuote = (data: LocaleContent["home"] | null | undefined) => {
+  if (!data) {
+    return (
+      <div className="flex h-16 flex-col items-center justify-center gap-3 sm:text-2xl">
+        <Skeleton className="h-full w-9/10" />
+        <Skeleton className="h-full w-3/4" />
+      </div>
+    )
+  }
+
+  return (
+    <p className="text-xl leading-relaxed font-medium text-foreground sm:text-2xl">
+      &ldquo;{data?.missionQuote}&rdquo;
+    </p>
+  )
+}
+
+const viewHighlights = (highlight: LocaleContent["home"]["highlights"][number], index: number) => {
+  const Icon = highlightIcons[index] ?? Users
+  return (
+    <div
+      key={index}
+      className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/50 hover:shadow-lg"
+    >
+      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+        <Icon className="h-6 w-6 text-primary" />
+      </div>
+      <h3 className="mt-6 text-xl font-semibold text-card-foreground">{highlight?.title}</h3>
+      <p className="mt-3 leading-relaxed text-muted-foreground">{highlight?.description}</p>
+    </div>
+  )
+}
+
+const viewCommunities =
+  (data: LocaleContent["home"] | null | undefined) => (community: LocaleContent["home"]["communities"][number]) => (
+    <div
+      key={community}
+      className="rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary/50 hover:shadow-md"
+    >
+      <h3 className="text-lg font-semibold text-card-foreground">{community}</h3>
+      <p className="mt-2 text-sm text-muted-foreground">{data?.communityLabel}</p>
+    </div>
+  )
+
 function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) {
-  const viewHeroTitle = () => {
-    if (!data) {
-      return (
-        <div className="flex h-40 flex-col gap-3 sm:h-45 sm:gap-4">
-          <Skeleton className="h-full w-full bg-muted/20" />
-          <Skeleton className="h-full w-full bg-muted/20 sm:hidden" />
-          <Skeleton className="h-full w-9/10 bg-muted/20" />
-          <Skeleton className="h-full w-3/4 bg-muted/20" />
-        </div>
-      )
-    }
-
-    return (
-      <h1 className="text-4xl font-bold tracking-tight text-balance text-background sm:text-5xl lg:text-6xl">
-        {data?.heroTitle}
-      </h1>
-    )
-  }
-
-  const viewHeroSubtitle = () => {
-    if (!data) {
-      return (
-        <div className="mt-6 flex h-40 flex-col gap-3 text-lg leading-relaxed text-pretty text-background/80 sm:gap-4">
-          <Skeleton className="h-full w-full bg-muted/20" />
-          <Skeleton className="h-full w-full bg-muted/20" />
-          <Skeleton className="h-full w-full bg-muted/20" />
-          <Skeleton className="h-full w-9/10 bg-muted/20" />
-          <Skeleton className="h-full w-1/2 bg-muted/20" />
-        </div>
-      )
-    }
-
-    return <p className="mt-6 text-lg leading-relaxed text-pretty text-background/80">{data?.heroSubtitle}</p>
-  }
-
-  const viewMissionQuote = () => {
-    if (!data) {
-      return (
-        <div className="flex h-16 flex-col items-center justify-center gap-3 sm:text-2xl">
-          <Skeleton className="h-full w-9/10" />
-          <Skeleton className="h-full w-3/4" />
-        </div>
-      )
-    }
-
-    return (
-      <p className="text-xl leading-relaxed font-medium text-foreground sm:text-2xl">
-        &ldquo;{data?.missionQuote}&rdquo;
-      </p>
-    )
-  }
-
   return (
     <div>
       {/* Hero Section */}
@@ -76,8 +103,8 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            {viewHeroTitle()}
-            {viewHeroSubtitle()}
+            {viewHeroTitle(data)}
+            {viewHeroSubtitle(data)}
             <div className="mt-10 flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
                 <Link href="/about">
@@ -98,7 +125,7 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
       {/* Mission Statement */}
       <section className="border-b border-border py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">{viewMissionQuote()}</div>
+          <div className="mx-auto max-w-3xl text-center">{viewMissionQuote(data)}</div>
         </div>
       </section>
 
@@ -109,24 +136,7 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{data?.approachTitle}</h2>
             <p className="mt-4 text-lg text-muted-foreground">{data?.approachSubtitle}</p>
           </div>
-
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {data?.highlights.map((highlight, index) => {
-              const Icon = highlightIcons[index] ?? Users
-              return (
-                <div
-                  key={index}
-                  className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/50 hover:shadow-lg"
-                >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
-                    <Icon className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="mt-6 text-xl font-semibold text-card-foreground">{highlight?.title}</h3>
-                  <p className="mt-3 leading-relaxed text-muted-foreground">{highlight?.description}</p>
-                </div>
-              )
-            })}
-          </div>
+          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">{data?.highlights.map(viewHighlights)}</div>
         </div>
       </section>
 
@@ -160,15 +170,7 @@ function HomeView({ data }: { data: LocaleContent["home"] | null | undefined }) 
           </div>
 
           <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {data?.communities?.map((community) => (
-              <div
-                key={community}
-                className="rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary/50 hover:shadow-md"
-              >
-                <h3 className="text-lg font-semibold text-card-foreground">{community}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{data?.communityLabel}</p>
-              </div>
-            ))}
+            {data?.communities?.map(viewCommunities(data))}
           </div>
         </div>
       </section>

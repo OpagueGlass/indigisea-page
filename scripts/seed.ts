@@ -2,7 +2,7 @@
  * Seeds the Payload Globals from the bundled `content/site-content.json`.
  *
  * Run AFTER you have connected your database and set DATABASE_URI:
- *   pnpm seed
+ * pnpm payload seed
  *
  * Safe to re-run; it overwrites each Global with the seed values.
  */

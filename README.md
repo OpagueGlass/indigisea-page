@@ -1,21 +1,33 @@
-# Next.js template
+# IndigiSEA Project Website
 
-This is a Next.js template with shadcn/ui.
+Project website for the IndigiSEA project created with Next.js, Neon and PayloadCMS. Inform users about project details and updates, and allows non-technical administrators to manage site content through a headless CMS.
 
-## Adding components
+## Creating an Admin User
 
-To add components to your app, run the following command:
+1. Login to the Payload Admin Dashboard at [http://localhost:3000/admin](http://localhost:3000/admin) with an existing admin account.
+2. Go to the sidebar and click on "Admins" under the "Admin" section.
+3. Click the "Create New" button to create a new admin user.
+4. Fill in the required email and password for the new admin user, and optionally fill in their name.
+5. Click the "Save" button to create the new admin user.
 
-```bash
-npx shadcn@latest add button
-```
+## Local Development Setup
 
-This will place the ui components in the `components` directory.
+1. Install Dependencies:
 
-## Using components
+   ```bash
+   pnpm install
+   ```
 
-To use the components in your app, import them as follows:
+   Seed the database on first startup:
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+   ```bash
+   pnpm payload seed
+   ```
+
+2. Start the Development Server
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the app.
